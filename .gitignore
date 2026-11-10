@@ -1,0 +1,22 @@
+# Directorios de compilación de CMake (Aquí vive Raylib localmente)
+build/
+out/
+CMakeCache.txt
+CMakeFiles/
+
+# Archivos ocultos del sistema macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Configuraciones locales de VS Code (Para no causar conflictos con el Windows de tus compañeros)
+.vscode/
+
+# Archivos binarios precompilados y ejecutables (Git solo debe guardar código)
+*.o
+*.out
+*.exe
+*.dylib
+*.dll
+*.a
+
